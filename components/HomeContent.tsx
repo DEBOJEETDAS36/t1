@@ -76,9 +76,9 @@ export default function HomeContent() {
 <section id="blogs"><div className="wrap">
 <div className="head reveal"><div><span className="eyebrow">Journal</span><h2>Stories &amp; <em>inspiration</em></h2></div><Link href="/blogs" className="btn gh">All articles</Link></div>
 <div className="blogs">
-<Link href="/blogs/bali-beyond-the-beaches" className="blog glass reveal"><div className="img" data-n="Bali" style={{'--a':'#0e9196','--b':'#0b3b4d'} as React.CSSProperties}><Pic name="blogs/bali-beyond-the-beaches" alt="" /></div><div className="t"><small>Guide</small><h3>Bali beyond the beaches</h3><p>Quiet temples and rice terraces most visitors miss.</p></div></Link>
-<Link href="/blogs/japan-in-autumn" className="blog glass reveal" style={{'--d':'.1s'} as React.CSSProperties}><div className="img" data-n="Japan" style={{'--a':'#d8584a','--b':'#3a2a4a'} as React.CSSProperties}><Pic name="blogs/japan-in-autumn" alt="" /></div><div className="t"><small>Season</small><h3>Japan in autumn</h3><p>When and where to catch the best foliage.</p></div></Link>
-<Link href="/blogs/planning-an-egypt-cruise" className="blog glass reveal" style={{'--d':'.2s'} as React.CSSProperties}><div className="img" data-n="Nile" style={{'--a':'#e0a800','--b':'#3b5a4a'} as React.CSSProperties}><Pic name="blogs/planning-an-egypt-cruise" alt="" /></div><div className="t"><small>Tips</small><h3>Planning an Egypt cruise</h3><p>What to know before sailing the Nile.</p></div></Link>
+<Link href="/blogs/bali-beyond-the-beaches" className="blog glass reveal"><div className="img" data-n="Bali" style={{'--a':'#0e9196','--b':'#0b3b4d'} as React.CSSProperties}><Pic name="blogs/Cordelia Cruise" alt="" /></div><div className="t"><small>Guide</small><h3>Cruises that you can't miss</h3><p>Explore the top cruise packages with us</p></div></Link>
+<Link href="/blogs/japan-in-autumn" className="blog glass reveal" style={{'--d':'.1s'} as React.CSSProperties}><div className="img" data-n="Japan" style={{'--a':'#d8584a','--b':'#3a2a4a'} as React.CSSProperties}><Pic name="blogs/Mount Fuji" alt="" /></div><div className="t"><small>Season</small><h3>Japan in autumn</h3><p>When and where to catch the best foliage.</p></div></Link>
+<Link href="/blogs/planning-an-egypt-cruise" className="blog glass reveal" style={{'--d':'.2s'} as React.CSSProperties}><div className="img" data-n="Nile" style={{'--a':'#e0a800','--b':'#3b5a4a'} as React.CSSProperties}><Pic name="blogs/Villas in Maldives" alt="" /></div><div className="t"><small>Tips</small><h3>Planning a Maldives Trip</h3><p>What to know before chilling in the sea.</p></div></Link>
 </div></div></section>
 
 <div className="partners"><p>Trusted by the world’s best</p>{logos.length ? <div className="track logos">{loop(logos).map((l,i)=><img key={i} src={l.src} alt={l.name} className={l.orig?'orig':''} loading="lazy" />)}</div> : <div className="track">{[...N,...N].map((n,i)=><span key={i}>{n}</span>)}</div>}</div>
@@ -93,7 +93,7 @@ export default function HomeContent() {
 
 <section className="contact" id="contact" style={{'paddingTop':'0'} as React.CSSProperties}><div className="wrap"><div className="box glass reveal">
 <div><span className="eyebrow">Get in touch</span><h2>Let’s plan your <em>escape</em></h2>
-<div className="info"><div><b>Call us</b>+91-XXXXXXXXXX</div><div><b>Email</b>hello@wanderline.com</div><div><b>Office</b>Howrah, West Bengal, India</div></div></div>
+<div className="info"><div><b>Call us</b>+91-9830032368</div><div><b>Email</b>bentsholidays@gmail.com</div><div><b>Office</b>22 Lake Place, Kolkata, India</div></div></div>
 <form onSubmit={enq.onSubmit}>
 <input name="name" className="in" placeholder="Your name" required /><input name="email" className="in" type="email" placeholder="Email address" required /><textarea name="message" className="in" placeholder="Tell us about your dream trip" maxLength={1000}></textarea>
 <button className="btn pri" style={{'justifySelf':'start'} as React.CSSProperties}>{sent?'Thank you — we’ll be in touch ✓':'Send enquiry'}</button>{enq.err && <p className="ferr full">{enq.err}</p>}</form>
