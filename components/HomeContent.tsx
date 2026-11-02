@@ -52,11 +52,11 @@ export default function HomeContent() {
 <section id="destinations" style={{'paddingTop':'0'} as React.CSSProperties}><div className="wrap">
 <div className="head reveal"><div><span className="eyebrow">Destinations</span><h2>Where will you <em>wake up</em> next?</h2></div><p className="sub">Domestic gems to far-flung horizons — pick a region and we’ll shape the rest.</p></div>
 <div className="dest">
-<div className="d reveal" style={{'--a':'#0e9196','--b':'#072b36'} as React.CSSProperties}><Pic name="destinations/southeast-asia" alt="Southeast Asia" /><span><small>Southeast Asia</small>Bali · Thailand · Vietnam</span></div>
-<div className="d reveal" style={{'--d':'.1s','--a':'#d4a017','--b':'#6a3a1a'} as React.CSSProperties}><Pic name="destinations/dubai" alt="Middle East" /><span><small>Middle East</small>Dubai</span></div>
-<div className="d reveal" style={{'--d':'.2s','--a':'#4a7fb5','--b':'#1a2a52'} as React.CSSProperties}><Pic name="destinations/italy" alt="Europe" /><span><small>Europe</small>Italy</span></div>
-<div className="d reveal" style={{'--d':'.1s','--a':'#2f9e7a','--b':'#0d3b3b'} as React.CSSProperties}><Pic name="destinations/kerala" alt="Domestic" /><span><small>Domestic</small>Kerala</span></div>
-<div className="d reveal" style={{'--d':'.2s','--a':'#b85a7a','--b':'#2a2050'} as React.CSSProperties}><Pic name="destinations/south-africa" alt="Africa" /><span><small>Africa</small>South Africa</span></div>
+<div className="d reveal" style={{'--a':'#0e9196','--b':'#072b36'} as React.CSSProperties}><Pic name="destinations/Bangkok" alt="Bangkok" /><span><small>Asia</small>Bangkok</span></div>
+<div className="d reveal" style={{'--d':'.1s','--a':'#d4a017','--b':'#6a3a1a'} as React.CSSProperties}><Pic name="destinations/Dubai" alt="Middle East" /><span><small>Middle East</small>Dubai</span></div>
+<div className="d reveal" style={{'--d':'.2s','--a':'#4a7fb5','--b':'#1a2a52'} as React.CSSProperties}><Pic name="destinations/Bhutan" alt="Bhutan" /><span><small>Asia</small>Bhutan</span></div>
+<div className="d reveal" style={{'--d':'.1s','--a':'#2f9e7a','--b':'#0d3b3b'} as React.CSSProperties}><Pic name="destinations/Sydney" alt="Sydney" /><span><small>Australia</small>Sydney</span></div>
+<div className="d reveal" style={{'--d':'.2s','--a':'#b85a7a','--b':'#2a2050'} as React.CSSProperties}><Pic name="destinations/Norwegian Cruise Line" alt="Cruise" /><span><small>Cruise</small>Norwegian Cruise Line</span></div>
 </div></div></section>
 
 <section style={{'paddingTop':'0'} as React.CSSProperties}><div className="wrap"><div className="teaser glass reveal"><div style={{'position':'relative'} as React.CSSProperties}><span className="eyebrow">Corporate &amp; MICE</span><h2>Events that move <em>teams</em></h2><p className="sub">Meetings, incentives, conferences and exhibitions — designed and delivered end to end.</p><div style={{'marginTop':'28px'} as React.CSSProperties}><Link href="/mice" className="btn pri">Explore MICE →</Link></div></div><div className="tz"><div><b>M</b>Meetings</div><div><b>I</b>Incentives</div><div><b>C</b>Conferences</div><div><b>E</b>Exhibitions</div></div></div></div></section>
