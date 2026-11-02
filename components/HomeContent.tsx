@@ -24,7 +24,7 @@ export default function HomeContent() {
 <span className="pill glass reveal"><b></b>Now booking Winter &amp; 2027 departures</span>
 <h1 className="reveal" style={{'--d':'.1s'} as React.CSSProperties}>Begin your <em>journey</em> beyond the ordinary.</h1>
 <p className="reveal" style={{'--d':'.2s'} as React.CSSProperties}>Hand-crafted escapes to the world’s most breathtaking places — planned end to end, so you only have to arrive.</p>
-<div className="cta reveal" style={{'--d':'.3s'} as React.CSSProperties}><a href="#packages" className="btn pri">Explore packages →</a><a href="#about" className="btn gh">Why Wanderline</a></div>
+<div className="cta reveal" style={{'--d':'.3s'} as React.CSSProperties}><a href="#packages" className="btn pri">Explore packages →</a><a href="#about" className="btn gh">Why Bents</a></div>
 </div>
 <div className="visual reveal" style={{'--d':'.2s'} as React.CSSProperties}>
 <div className="arch">{find('hero') ? <Pic name="hero" alt="Travel destination" /> : <><div className="sunc"></div>
@@ -86,9 +86,9 @@ export default function HomeContent() {
 <section><div className="wrap">
 <div className="head reveal"><div><span className="eyebrow">Testimonials</span><h2>Here’s what our <em>travellers</em> say</h2></div></div>
 <div className="tw">
-<div className="t glass reveal"><div className="st">★★★★★</div><p className="q">“Every day felt effortless. The Bali itinerary was the best trip our family has taken.”</p><div className="who"><i>{find('testimonials/ananya-sen') ? <Pic name="testimonials/ananya-sen" alt="Ananya Sen" /> : 'AS'}</i><div>Ananya Sen<small>Bali, 2026</small></div></div></div>
-<div className="t glass reveal" style={{'--d':'.1s'} as React.CSSProperties}><div className="st">★★★★★</div><p className="q">“Thoughtful, quick and always reachable. Japan ran like clockwork from start to finish.”</p><div className="who"><i>{find('testimonials/rohan-mehta') ? <Pic name="testimonials/rohan-mehta" alt="Rohan Mehta" /> : 'RM'}</i><div>Rohan Mehta<small>Japan, 2025</small></div></div></div>
-<div className="t glass reveal" style={{'--d':'.2s'} as React.CSSProperties}><div className="st">★★★★★</div><p className="q">“They found places we’d never have discovered ourselves. We’re already planning the next one.”</p><div className="who"><i>{find('testimonials/priya-das') ? <Pic name="testimonials/priya-das" alt="Priya Das" /> : 'PD'}</i><div>Priya Das<small>Egypt, 2025</small></div></div></div>
+<div className="t glass reveal"><div className="st">★★★★★</div><p className="q">“A big thank you to Bents and Manab Basu! Your love and encouragement always make everything brighter. Grateful to have you both.”</p><div className="who"><i>{find('testimonials/ananya-sen') ? <Pic name="testimonials/ananya-sen" alt="Ananya Sen" /> : 'AS'}</i><div>Swarup Sau</div></div></div>
+<div className="t glass reveal" style={{'--d':'.1s'} as React.CSSProperties}><div className="st">★★★★★</div><p className="q">“Superb experience with the Bents team—smooth, leisurely, luxurious, and exceptionally well-planned. Everything was thoughtfully managed, making the entire experience truly memorable.”</p><div className="who"><i>{find('testimonials/rohan-mehta') ? <Pic name="testimonials/rohan-mehta" alt="Rohan Mehta" /> : 'RM'}</i><div>Gourav Jamwal</div></div></div>
+<div className="t glass reveal" style={{'--d':'.2s'} as React.CSSProperties}><div className="st">★★★★★</div><p className="q">“Me and my family travelled to Kashmir and Ladakh under services by Bents and their network associates in July 2026. The whole trip was planned and supported with all committed services so nicely. We are grateful to Bents, in specific to Ms. Pinki Sharma for her extraordinary helps. We would like to travel with Bents again.”</p><div className="who"><i>{find('testimonials/priya-das') ? <Pic name="testimonials/priya-das" alt="Priya Das" /> : 'PD'}</i><div>Raj Kumar Mukherjee</div></div></div>
 </div></div></section>
 
 <section className="contact" id="contact" style={{'paddingTop':'0'} as React.CSSProperties}><div className="wrap"><div className="box glass reveal">
